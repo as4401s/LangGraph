@@ -6,7 +6,7 @@ The key idea is that you can define your application as a graph, where each node
 
 ---
 
-## ## Core Concepts
+## Core Concepts
 
 * **Stateful:** LangGraph is designed for building stateful applications. The state is passed between nodes in the graph, and you can use a `Checkpointer` to persist the state and resume the graph from any point.
 * **Multi-actor:** LangGraph makes it easy to create multi-agent systems where different agents can collaborate to achieve a goal. Each agent can be a node in the graph, and you can define the transitions between them based on the current state.
